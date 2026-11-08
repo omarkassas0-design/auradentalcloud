@@ -1,0 +1,8 @@
+{
+  "name": "auradental-worker",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.109.0"
+  }
+}

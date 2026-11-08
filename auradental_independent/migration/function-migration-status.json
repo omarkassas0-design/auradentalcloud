@@ -1,0 +1,214 @@
+{
+  "assignUserToClinic": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation ported from source behavior. Must pass integration/regression tests before production."
+  },
+  "getPatientTimeline": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "createNewClinic": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation ported from source behavior. Must pass integration/regression tests before production."
+  },
+  "getBackupHistory": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getSuperAdminStats": {
+    "status": "implemented_initial",
+    "note": "Initial owner-only all-clinic aggregation and pending registration list. Needs pagination and large-tenant performance tests."
+  },
+  "generateNotifications": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getPatientRecall": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "restoreUser": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getCurrentUserRole": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation exists. Complete parity testing and regression verification remain required."
+  },
+  "searchPatients": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "restoreClinicBackup": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getDashboardStats": {
+    "status": "implemented_initial",
+    "note": "Initial dashboard aggregation port. Validate timezone boundaries and full data counts against source before production."
+  },
+  "rejectRegistration": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation ported from source behavior. Must pass integration/regression tests before production."
+  },
+  "completeClinicSetup": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation ported from source behavior. Must pass integration/regression tests before production."
+  },
+  "saveDoctorCompensation": {
+    "status": "implemented_initial",
+    "note": "Initial port restricts changes to clinic administrators, validates 0\u2013100 commission rates, verifies doctor clinic membership, and audits updates. Needs regression tests."
+  },
+  "linkExistingReceptionist": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "executeClinicDeletion": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getPaginatedRecords": {
+    "status": "implemented_initial",
+    "note": "Worker pagination and search implementation with clinic scoping, restricted entity permissions, doctor patient-phone redaction, and audit snapshot redaction. Regression testing remains required."
+  },
+  "cancelClinicDeletion": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "secureExtractData": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "checkPendingPermanentDeletion": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "saveMessageTemplates": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getClinicExportData": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getReportsStats": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getSuperAdminUsers": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation ported from source behavior. Must pass integration/regression tests before production."
+  },
+  "normalizeOwnerRoles": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getMonthlyExpenses": {
+    "status": "implemented_initial",
+    "note": "Initial currency-separated monthly expense aggregation port. Needs reconciliation against source for month boundaries and totals."
+  },
+  "restoreClinic": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "clinicScopedCrud": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation includes role allowlists, clinic scope, doctor patient-phone masking, audit logs, Invoice totals, plan discount RPC, restore, and permanent delete. Must be regression-tested against source."
+  },
+  "migrateLegacyFiles": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "scheduleClinicDeletion": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "executePermanentDeletion": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "sendScheduledReports": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "runAutomaticBackups": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "approveRegistration": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation ported from source behavior. Must pass integration/regression tests before production."
+  },
+  "getDoctorCommissionSummary": {
+    "status": "implemented_initial",
+    "note": "Initial currency-separated summary port with doctor self-scope, payment-time commission history, payout totals, remaining and overpaid amounts. Needs regression tests."
+  },
+  "schedulePermanentDeletion": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "loadUserClinic": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation exists. Complete parity testing and regression verification remain required."
+  },
+  "finalizeLabCase": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "saveClinicSettings": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation ported from source behavior. Must pass integration/regression tests before production."
+  },
+  "softDeleteUser": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getPatientFileSignedUrl": {
+    "status": "implemented_initial",
+    "note": "Initial Worker implementation exists. Complete parity testing and regression verification remain required."
+  },
+  "purgeRecycleBin": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "createClinicBackup": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "getPatientsForExport": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "cancelPermanentDeletion": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "checkPendingClinicDeletion": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "pwaManifest": {
+    "status": "replaced_static",
+    "note": "Replaced by public/manifest.webmanifest and public/sw.js; verify PWA installation in browser."
+  },
+  "savePayment": {
+    "status": "implemented_initial",
+    "note": "Initial port preserves patient/doctor/treatment clinic validation, source-specific doctor commission rates, prosthesis cost-recovery-first commission base, historical commission percentage on edit, same-currency treatment paid_amount recalculation, audit events, and best-effort receipt creation. Needs financial regression tests."
+  },
+  "getDoctorDashboard": {
+    "status": "implemented_initial",
+    "note": "Initial doctor-scoped dashboard port. Verify all role/commission/patient ownership rules against source before production."
+  },
+  "processPatientFileBatch": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "linkExistingDoctor": {
+    "status": "pending_port",
+    "note": "Not yet migrated. Worker returns HTTP 501; no fake success."
+  },
+  "pwaServiceWorker": {
+    "status": "replaced_static",
+    "note": "Replaced by public/manifest.webmanifest and public/sw.js; verify PWA installation in browser."
+  }
+}

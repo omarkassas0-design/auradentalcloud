@@ -1,0 +1,2 @@
+import React from 'react';
+export default function OAuthConsent() { return <main className="min-h-screen flex items-center justify-center p-6 bg-background"><section className="max-w-md rounded-xl border bg-card p-6 text-center space-y-3"><h1 className="text-xl font-semibold">External authorization unavailable</h1><p className="text-sm text-muted-foreground">This authorization flow requires an independently configured OAuth integration. No external access has been granted.</p><a className="text-primary underline" href="/settings">Return to settings</a></section></main>; }
